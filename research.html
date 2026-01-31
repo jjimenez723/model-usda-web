@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briefing Room | Model USDA 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+    <style>
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #eee;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        .stat-source {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 15px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span>🏛️</span> Model USDA</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="scenarios.html">Scenarios</a>
+                <a href="research.html" class="active">Briefing Room</a>
+                <a href="index.html#schedule">Schedule</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="section" style="background: var(--color-secondary); color: white; padding: 60px 0;">
+        <div class="container">
+            <h1>The Briefing Room</h1>
+            <p>Data Vault & Research Context for Negotiation</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Statistics</h2>
+                <p>Deploy these statistics to support your arguments during negotiation.</p>
+            </div>
+
+            <div class="grid-3">
+                <!-- Labor Efficiency -->
+                <div class="stat-card">
+                    <span class="stat-value">3x Output</span>
+                    <span class="stat-label">Farm output tripled (1948-2017) while labor fell 80%.</span>
+                    <span class="stat-source">Source: Efficiency in U.S. Ag</span>
+                </div>
+
+                <!-- Tech Adoption -->
+                <div class="stat-card">
+                    <span class="stat-value">70%</span>
+                    <span class="stat-label">Of large farms use GPS/Precision Ag technology.</span>
+                    <span class="stat-source">Source: AI in Agriculture</span>
+                </div>
+
+                <!-- Corn Yields -->
+                <div class="stat-card">
+                    <span class="stat-value">170+</span>
+                    <span class="stat-label">Bushels/acre (Corn Yields).</span>
+                    <span class="stat-source">Source: Efficiency in U.S. Ag</span>
+                </div>
+
+                <!-- AI Growth -->
+                <div class="stat-card">
+                    <span class="stat-value">23.5%</span>
+                    <span class="stat-label">Annual growth of AI in Agriculture.</span>
+                    <span class="stat-source">Source: AI in Agriculture</span>
+                </div>
+
+                <!-- AI Pest Management -->
+                <div class="stat-card">
+                    <span class="stat-value">95%</span>
+                    <span class="stat-label">Accuracy in AI pest inflection detection.</span>
+                    <span class="stat-source">Source: AI in Agriculture</span>
+                </div>
+
+                <!-- Water Usage -->
+                <div class="stat-card">
+                    <span class="stat-value">-40%</span>
+                    <span class="stat-label">Potential water reduction via AI irrigation.</span>
+                    <span class="stat-source">Source: AI in Agriculture</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Strategic Context</h2>
+            </div>
+
+            <div
+                style="background: white; padding: 40px; border-radius: 8px; box-shadow: var(--shadow-sm); margin-bottom: 40px;">
+                <h3 style="color: var(--color-primary);">Theme: Efficiency vs. Equity</h3>
+                <p style="margin-bottom: 20px;">Participants must balance the historic drive for agricultural efficiency
+                    with modern demands for sustainability and equity.</p>
+                <ul style="list-style-type: disc; margin-left: 20px;">
+                    <li style="margin-bottom: 10px;"><strong>Tension Point:</strong> While efficiency is high (doing
+                        more with less), new challenges like climate resilience and rural economic viability are
+                        pressing.</li>
+                    <li><strong>The "Digital" Farm:</strong> Modern farming involves autonomous tractors and drone
+                        monitoring. This context is crucial for Rural Investment (Scenario D).</li>
+                </ul>
+            </div>
+
+            <div style="background: white; padding: 40px; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                <h3 style="color: var(--color-primary);">Reference Library</h3>
+                <ul style="list-style: none;">
+                    <li style="padding: 10px 0; border-bottom: 1px solid #eee;">📄 <strong>Model USDA Event Brief
+                            2026</strong> - Primary Source for Logistics</li>
+                    <li style="padding: 10px 0; border-bottom: 1px solid #eee;">📊 <strong>Efficiency in U.S.
+                            Agriculture</strong> - Primary Source for Ag Stats</li>
+                    <li style="padding: 10px 0;">🤖 <strong>AI in Agriculture: Key Statistics</strong> - Primary Source
+                        for Tech Stats</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2026 Model USDA. Confidential - For Simulation Use Only.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
